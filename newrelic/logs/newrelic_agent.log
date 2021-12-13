@@ -1,0 +1,344 @@
+2021-12-09T01:16:07,535-0300 [13430 1] com.newrelic INFO: Writing to New Relic log file: /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/logs/newrelic_agent.log
+2021-12-09T01:16:07,536-0300 [13430 1] com.newrelic INFO: JRE vendor Private Build version 1.8.0_292
+2021-12-09T01:16:07,536-0300 [13430 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 25.292-b10
+2021-12-09T01:16:07,536-0300 [13430 1] com.newrelic INFO: OS Linux version 5.4.0-42-generic arch amd64
+2021-12-09T01:16:07,536-0300 [13430 1] com.newrelic INFO: Agent Host: ni-01780-4p IP: 127.0.1.1
+2021-12-09T01:16:07,536-0300 [13430 1] com.newrelic INFO: New Relic Agent v7.4.0 is initializing...
+2021-12-09T01:16:08,472-0300 [13430 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-12-09T01:16:11,331-0300 [13430 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-12-09T01:16:11,999-0300 [13430 1] com.newrelic INFO: Setting audit_mode to false
+2021-12-09T01:16:12,349-0300 [13430 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/./newrelic.yml
+2021-12-09T01:16:12,372-0300 [13430 1] com.newrelic INFO: New Relic Agent v7.4.0 has started
+2021-12-09T01:16:12,372-0300 [13430 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@4f8e5cde
+2021-12-09T01:16:12,372-0300 [13430 1] com.newrelic INFO: Premain startup complete in 6.016ms
+2021-12-09T01:16:15,333-0300 [13430 46] com.newrelic INFO: Server Info: Apache Tomcat/9.0.55
+2021-12-09T01:16:15,604-0300 [13430 6] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-12-09T01:16:15,606-0300 [13430 6] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-12-09T01:16:46,331-0300 [13717 1] com.newrelic INFO: Writing to New Relic log file: /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/logs/newrelic_agent.log
+2021-12-09T01:16:46,331-0300 [13717 1] com.newrelic INFO: JRE vendor Private Build version 1.8.0_292
+2021-12-09T01:16:46,332-0300 [13717 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 25.292-b10
+2021-12-09T01:16:46,332-0300 [13717 1] com.newrelic INFO: OS Linux version 5.4.0-42-generic arch amd64
+2021-12-09T01:16:46,332-0300 [13717 1] com.newrelic INFO: Agent Host: ni-01780-4p IP: 127.0.1.1
+2021-12-09T01:16:46,332-0300 [13717 1] com.newrelic INFO: New Relic Agent v7.4.0 is initializing...
+2021-12-09T01:16:47,236-0300 [13717 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-12-09T01:16:50,014-0300 [13717 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-12-09T01:16:50,661-0300 [13717 1] com.newrelic INFO: Setting audit_mode to false
+2021-12-09T01:16:51,020-0300 [13717 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/./newrelic.yml
+2021-12-09T01:16:51,042-0300 [13717 1] com.newrelic INFO: New Relic Agent v7.4.0 has started
+2021-12-09T01:16:51,042-0300 [13717 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@4f8e5cde
+2021-12-09T01:16:51,042-0300 [13717 1] com.newrelic INFO: Premain startup complete in 6.086ms
+2021-12-09T01:16:53,776-0300 [13717 43] com.newrelic INFO: Server Info: Apache Tomcat/9.0.55
+2021-12-09T01:16:54,054-0300 [13717 6] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-12-09T01:16:54,055-0300 [13717 6] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-12-09T01:17:51,367-0300 [14361 1] com.newrelic INFO: Writing to New Relic log file: /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/logs/newrelic_agent.log
+2021-12-09T01:17:51,368-0300 [14361 1] com.newrelic INFO: JRE vendor Private Build version 1.8.0_292
+2021-12-09T01:17:51,368-0300 [14361 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 25.292-b10
+2021-12-09T01:17:51,368-0300 [14361 1] com.newrelic INFO: OS Linux version 5.4.0-42-generic arch amd64
+2021-12-09T01:17:51,368-0300 [14361 1] com.newrelic INFO: Agent Host: ni-01780-4p IP: 127.0.1.1
+2021-12-09T01:17:51,368-0300 [14361 1] com.newrelic INFO: New Relic Agent v7.4.0 is initializing...
+2021-12-09T01:17:52,287-0300 [14361 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-12-09T01:17:55,080-0300 [14361 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-12-09T01:17:55,682-0300 [14361 1] com.newrelic INFO: Setting audit_mode to false
+2021-12-09T01:17:56,061-0300 [14361 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/./newrelic.yml
+2021-12-09T01:17:56,087-0300 [14361 1] com.newrelic INFO: New Relic Agent v7.4.0 has started
+2021-12-09T01:17:56,087-0300 [14361 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@4f8e5cde
+2021-12-09T01:17:56,087-0300 [14361 1] com.newrelic INFO: Premain startup complete in 6.254ms
+2021-12-09T01:17:58,788-0300 [14361 46] com.newrelic INFO: Server Info: Apache Tomcat/9.0.55
+2021-12-09T01:17:59,051-0300 [14361 6] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-12-09T01:17:59,053-0300 [14361 6] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-12-09T01:21:48,676-0300 [15776 1] com.newrelic INFO: Writing to New Relic log file: /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/logs/newrelic_agent.log
+2021-12-09T01:21:48,676-0300 [15776 1] com.newrelic INFO: JRE vendor Private Build version 1.8.0_292
+2021-12-09T01:21:48,676-0300 [15776 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 25.292-b10
+2021-12-09T01:21:48,676-0300 [15776 1] com.newrelic INFO: OS Linux version 5.4.0-42-generic arch amd64
+2021-12-09T01:21:48,676-0300 [15776 1] com.newrelic INFO: Agent Host: ni-01780-4p IP: 127.0.1.1
+2021-12-09T01:21:48,676-0300 [15776 1] com.newrelic INFO: New Relic Agent v7.4.0 is initializing...
+2021-12-09T01:21:49,870-0300 [15776 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-12-09T01:21:52,527-0300 [15776 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-12-09T01:21:53,180-0300 [15776 1] com.newrelic INFO: Setting audit_mode to false
+2021-12-09T01:21:53,546-0300 [15776 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/./newrelic.yml
+2021-12-09T01:21:53,570-0300 [15776 1] com.newrelic INFO: New Relic Agent v7.4.0 has started
+2021-12-09T01:21:53,570-0300 [15776 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@4f8e5cde
+2021-12-09T01:21:53,570-0300 [15776 1] com.newrelic INFO: Premain startup complete in 6.367ms
+2021-12-09T01:21:56,284-0300 [15776 45] com.newrelic INFO: Server Info: Apache Tomcat/9.0.55
+2021-12-09T01:21:56,590-0300 [15776 6] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-12-09T01:21:56,591-0300 [15776 6] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-12-09T01:25:21,002-0300 [16928 1] com.newrelic INFO: Writing to New Relic log file: /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/logs/newrelic_agent.log
+2021-12-09T01:25:21,003-0300 [16928 1] com.newrelic INFO: JRE vendor Private Build version 1.8.0_292
+2021-12-09T01:25:21,003-0300 [16928 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 25.292-b10
+2021-12-09T01:25:21,003-0300 [16928 1] com.newrelic INFO: OS Linux version 5.4.0-42-generic arch amd64
+2021-12-09T01:25:21,003-0300 [16928 1] com.newrelic INFO: Agent Host: ni-01780-4p IP: 127.0.1.1
+2021-12-09T01:25:21,003-0300 [16928 1] com.newrelic INFO: New Relic Agent v7.4.0 is initializing...
+2021-12-09T01:25:22,011-0300 [16928 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-12-09T01:25:24,925-0300 [16928 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-12-09T01:25:25,555-0300 [16928 1] com.newrelic INFO: Setting audit_mode to false
+2021-12-09T01:25:25,959-0300 [16928 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/./newrelic.yml
+2021-12-09T01:25:25,986-0300 [16928 1] com.newrelic INFO: New Relic Agent v7.4.0 has started
+2021-12-09T01:25:25,986-0300 [16928 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@4e515669
+2021-12-09T01:25:25,987-0300 [16928 1] com.newrelic INFO: Premain startup complete in 6.297ms
+2021-12-09T01:25:28,745-0300 [16928 46] com.newrelic INFO: Server Info: Apache Tomcat/9.0.55
+2021-12-09T01:25:30,982-0300 [16928 31] com.newrelic INFO: Host name is ni-01780-4p, display host ni-01780-4p for application rabbitmq-demo
+2021-12-09T01:25:30,983-0300 [16928 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-09T01:25:32,229-0300 [16928 31] com.newrelic INFO: Collector redirection to collector-001.newrelic.com:443
+2021-12-09T01:25:32,724-0300 [16928 31] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-12-09T01:25:32,725-0300 [16928 31] com.newrelic INFO: Agent run id: BZcfrxXQfev3ADNU3CLg_WRhsYWUAAIBAAAnIQEAAEIgAgQi4P4xAwAFNy40LjAAC25pLTAxNzgwLTRwAA1yYWJiaXRtcS1kZW1v
+2021-12-09T01:25:32,726-0300 [16928 31] com.newrelic INFO: Agent 16928@ni-01780-4p/rabbitmq-demo connected to collector.newrelic.com:443
+2021-12-09T01:25:32,726-0300 [16928 31] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3364060/applications/585170481
+2021-12-09T01:25:32,728-0300 [16928 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-09T01:25:32,728-0300 [16928 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-09T01:25:32,729-0300 [16928 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-09T01:25:32,733-0300 [16928 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-09T01:25:32,733-0300 [16928 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-09T01:25:32,733-0300 [16928 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-09T01:25:33,483-0300 [16928 31] com.newrelic INFO: Real user monitoring is enabled for application rabbitmq-demo. Auto instrumentation is enabled.
+2021-12-09T01:25:33,483-0300 [16928 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-09T01:36:21,929-0300 [16928 6] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-12-09T01:36:22,660-0300 [16928 6] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-12-09T01:39:01,247-0300 [21233 1] com.newrelic INFO: Writing to New Relic log file: /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/logs/newrelic_agent.log
+2021-12-09T01:39:01,247-0300 [21233 1] com.newrelic INFO: JRE vendor Private Build version 1.8.0_292
+2021-12-09T01:39:01,247-0300 [21233 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 25.292-b10
+2021-12-09T01:39:01,248-0300 [21233 1] com.newrelic INFO: OS Linux version 5.4.0-42-generic arch amd64
+2021-12-09T01:39:01,248-0300 [21233 1] com.newrelic INFO: Agent Host: ni-01780-4p IP: 127.0.1.1
+2021-12-09T01:39:01,248-0300 [21233 1] com.newrelic INFO: New Relic Agent v7.4.0 is initializing...
+2021-12-09T01:39:02,054-0300 [21233 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-12-09T01:39:04,982-0300 [21233 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-12-09T01:39:05,804-0300 [21233 1] com.newrelic INFO: Setting audit_mode to false
+2021-12-09T01:39:06,215-0300 [21233 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/./newrelic.yml
+2021-12-09T01:39:06,251-0300 [21233 1] com.newrelic INFO: New Relic Agent v7.4.0 has started
+2021-12-09T01:39:06,251-0300 [21233 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@4e515669
+2021-12-09T01:39:06,252-0300 [21233 1] com.newrelic INFO: Premain startup complete in 5.979ms
+2021-12-09T01:39:09,310-0300 [21233 46] com.newrelic INFO: Server Info: Apache Tomcat/9.0.55
+2021-12-09T01:39:11,245-0300 [21233 31] com.newrelic INFO: Host name is ni-01780-4p, display host ni-01780-4p for application rabbitmq-demo
+2021-12-09T01:39:11,247-0300 [21233 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-09T01:39:12,354-0300 [21233 31] com.newrelic INFO: Collector redirection to collector-001.newrelic.com:443
+2021-12-09T01:39:13,348-0300 [21233 31] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-12-09T01:39:13,349-0300 [21233 31] com.newrelic INFO: Agent run id: BWcubbD1rZJ7ADNU3CLg_WRhsYjcAAIBAAAnIQEAAFLxAgQi4P4xAwAFNy40LjAAC25pLTAxNzgwLTRwAA1yYWJiaXRtcS1kZW1v
+2021-12-09T01:39:13,349-0300 [21233 31] com.newrelic INFO: Agent 21233@ni-01780-4p/rabbitmq-demo connected to collector.newrelic.com:443
+2021-12-09T01:39:13,349-0300 [21233 31] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3364060/applications/585170481
+2021-12-09T01:39:13,351-0300 [21233 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-09T01:39:13,351-0300 [21233 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-09T01:39:13,351-0300 [21233 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-09T01:39:13,354-0300 [21233 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-09T01:39:13,354-0300 [21233 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-09T01:39:13,354-0300 [21233 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-09T01:39:14,436-0300 [21233 31] com.newrelic INFO: Real user monitoring is enabled for application rabbitmq-demo. Auto instrumentation is enabled.
+2021-12-09T01:39:14,437-0300 [21233 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-09T01:55:00,942-0300 [21233 6] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-12-09T01:55:01,823-0300 [21233 6] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-12-09T01:57:27,666-0300 [26811 1] com.newrelic INFO: Writing to New Relic log file: /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/logs/newrelic_agent.log
+2021-12-09T01:57:27,666-0300 [26811 1] com.newrelic INFO: JRE vendor Private Build version 1.8.0_292
+2021-12-09T01:57:27,667-0300 [26811 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 25.292-b10
+2021-12-09T01:57:27,667-0300 [26811 1] com.newrelic INFO: OS Linux version 5.4.0-42-generic arch amd64
+2021-12-09T01:57:27,667-0300 [26811 1] com.newrelic INFO: Agent Host: ni-01780-4p IP: 127.0.1.1
+2021-12-09T01:57:27,667-0300 [26811 1] com.newrelic INFO: New Relic Agent v7.4.0 is initializing...
+2021-12-09T01:57:28,442-0300 [26811 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-12-09T01:57:31,431-0300 [26811 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-12-09T01:57:31,911-0300 [26811 1] com.newrelic INFO: Setting audit_mode to false
+2021-12-09T01:57:32,223-0300 [26811 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/./newrelic.yml
+2021-12-09T01:57:32,247-0300 [26811 1] com.newrelic INFO: New Relic Agent v7.4.0 has started
+2021-12-09T01:57:32,247-0300 [26811 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@4e515669
+2021-12-09T01:57:32,247-0300 [26811 1] com.newrelic INFO: Premain startup complete in 5.637ms
+2021-12-09T01:57:34,647-0300 [26811 47] com.newrelic INFO: Server Info: Apache Tomcat/9.0.55
+2021-12-09T01:57:37,244-0300 [26811 31] com.newrelic INFO: Host name is ni-01780-4p, display host ni-01780-4p for application rabbitmq-demo
+2021-12-09T01:57:37,245-0300 [26811 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-09T01:57:38,177-0300 [26811 31] com.newrelic INFO: Collector redirection to collector-001.newrelic.com:443
+2021-12-09T01:57:39,323-0300 [26811 31] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-12-09T01:57:39,323-0300 [26811 31] com.newrelic INFO: Agent run id: Bdg8oMnBOP7GADNU3CLg_WRhsY0UAAIBAAAnIQEAAGi7AgQi4P4xAwAFNy40LjAAC25pLTAxNzgwLTRwAA1yYWJiaXRtcS1kZW1v
+2021-12-09T01:57:39,325-0300 [26811 31] com.newrelic INFO: Agent 26811@ni-01780-4p/rabbitmq-demo connected to collector.newrelic.com:443
+2021-12-09T01:57:39,325-0300 [26811 31] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3364060/applications/585170481
+2021-12-09T01:57:39,327-0300 [26811 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-09T01:57:39,327-0300 [26811 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-09T01:57:39,327-0300 [26811 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-09T01:57:39,332-0300 [26811 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-09T01:57:39,332-0300 [26811 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-09T01:57:39,332-0300 [26811 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-09T01:57:40,469-0300 [26811 31] com.newrelic INFO: Real user monitoring is enabled for application rabbitmq-demo. Auto instrumentation is enabled.
+2021-12-09T01:57:40,469-0300 [26811 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-09T03:17:12,709-0300 [26811 6] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-12-09T03:17:13,089-0300 [26811 6] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-12-09T03:17:45,556-0300 [18514 1] com.newrelic INFO: Writing to New Relic log file: /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/logs/newrelic_agent.log
+2021-12-09T03:17:45,557-0300 [18514 1] com.newrelic INFO: JRE vendor Private Build version 1.8.0_292
+2021-12-09T03:17:45,557-0300 [18514 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 25.292-b10
+2021-12-09T03:17:45,557-0300 [18514 1] com.newrelic INFO: OS Linux version 5.4.0-42-generic arch amd64
+2021-12-09T03:17:45,557-0300 [18514 1] com.newrelic INFO: Agent Host: ni-01780-4p IP: 127.0.1.1
+2021-12-09T03:17:45,557-0300 [18514 1] com.newrelic INFO: New Relic Agent v7.4.0 is initializing...
+2021-12-09T03:17:46,333-0300 [18514 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-12-09T03:17:48,663-0300 [18514 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-12-09T03:17:49,236-0300 [18514 1] com.newrelic INFO: Setting audit_mode to false
+2021-12-09T03:17:49,502-0300 [18514 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/./newrelic.yml
+2021-12-09T03:17:49,519-0300 [18514 1] com.newrelic INFO: New Relic Agent v7.4.0 has started
+2021-12-09T03:17:49,519-0300 [18514 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@4e515669
+2021-12-09T03:17:49,519-0300 [18514 1] com.newrelic INFO: Premain startup complete in 4.942ms
+2021-12-09T03:17:51,883-0300 [18514 46] com.newrelic INFO: Server Info: Apache Tomcat/9.0.55
+2021-12-09T03:17:54,519-0300 [18514 31] com.newrelic INFO: Host name is ni-01780-4p, display host ni-01780-4p for application rabbitmq-demo
+2021-12-09T03:17:54,520-0300 [18514 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-09T03:17:55,740-0300 [18514 31] com.newrelic INFO: Collector redirection to collector-001.newrelic.com:443
+2021-12-09T03:17:56,132-0300 [18514 31] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-12-09T03:17:56,132-0300 [18514 31] com.newrelic INFO: Agent run id: BV1ZeD_Q5UssADNU3CLg_WRhsZ_UAAIBAAAnIQEAAEhSAgQi4P4xAwAFNy40LjAAC25pLTAxNzgwLTRwAA1yYWJiaXRtcS1kZW1v
+2021-12-09T03:17:56,133-0300 [18514 31] com.newrelic INFO: Agent 18514@ni-01780-4p/rabbitmq-demo connected to collector.newrelic.com:443
+2021-12-09T03:17:56,133-0300 [18514 31] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3364060/applications/585170481
+2021-12-09T03:17:56,134-0300 [18514 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-09T03:17:56,134-0300 [18514 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-09T03:17:56,134-0300 [18514 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-09T03:17:56,136-0300 [18514 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-09T03:17:56,136-0300 [18514 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-09T03:17:56,136-0300 [18514 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-09T03:17:57,321-0300 [18514 31] com.newrelic INFO: Real user monitoring is enabled for application rabbitmq-demo. Auto instrumentation is enabled.
+2021-12-09T03:17:57,321-0300 [18514 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-09T03:18:12,873-0300 [18514 6] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-12-09T03:18:13,557-0300 [18514 6] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-12-09T03:19:15,386-0300 [19119 1] com.newrelic INFO: Writing to New Relic log file: /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/logs/newrelic_agent.log
+2021-12-09T03:19:15,386-0300 [19119 1] com.newrelic INFO: JRE vendor Private Build version 1.8.0_292
+2021-12-09T03:19:15,386-0300 [19119 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 25.292-b10
+2021-12-09T03:19:15,386-0300 [19119 1] com.newrelic INFO: OS Linux version 5.4.0-42-generic arch amd64
+2021-12-09T03:19:15,386-0300 [19119 1] com.newrelic INFO: Agent Host: ni-01780-4p IP: 127.0.1.1
+2021-12-09T03:19:15,387-0300 [19119 1] com.newrelic INFO: New Relic Agent v7.4.0 is initializing...
+2021-12-09T03:19:16,145-0300 [19119 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-12-09T03:19:18,379-0300 [19119 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-12-09T03:19:18,855-0300 [19119 1] com.newrelic INFO: Setting audit_mode to false
+2021-12-09T03:19:19,133-0300 [19119 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/./newrelic.yml
+2021-12-09T03:19:19,149-0300 [19119 1] com.newrelic INFO: New Relic Agent v7.4.0 has started
+2021-12-09T03:19:19,149-0300 [19119 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@4e515669
+2021-12-09T03:19:19,149-0300 [19119 1] com.newrelic INFO: Premain startup complete in 4.740ms
+2021-12-09T03:19:21,280-0300 [19119 46] com.newrelic INFO: Server Info: Apache Tomcat/9.0.55
+2021-12-09T03:19:24,149-0300 [19119 31] com.newrelic INFO: Host name is ni-01780-4p, display host ni-01780-4p for application rabbitmq-demo
+2021-12-09T03:19:24,151-0300 [19119 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-09T03:19:26,306-0300 [19119 31] com.newrelic INFO: Collector redirection to collector-001.newrelic.com:443
+2021-12-09T03:19:27,107-0300 [19119 31] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-12-09T03:19:27,107-0300 [19119 31] com.newrelic INFO: Agent run id: BcnK9_ascfkAADNU3CLg_WRhsaBMAAIBAAAnIQEAAEqvAgQi4P4xAwAFNy40LjAAC25pLTAxNzgwLTRwAA1yYWJiaXRtcS1kZW1v
+2021-12-09T03:19:27,107-0300 [19119 31] com.newrelic INFO: Agent 19119@ni-01780-4p/rabbitmq-demo connected to collector.newrelic.com:443
+2021-12-09T03:19:27,107-0300 [19119 31] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3364060/applications/585170481
+2021-12-09T03:19:27,109-0300 [19119 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-09T03:19:27,109-0300 [19119 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-09T03:19:27,109-0300 [19119 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-09T03:19:27,112-0300 [19119 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-09T03:19:27,113-0300 [19119 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-09T03:19:27,113-0300 [19119 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-09T03:19:27,922-0300 [19119 31] com.newrelic INFO: Real user monitoring is enabled for application rabbitmq-demo. Auto instrumentation is enabled.
+2021-12-09T03:19:27,923-0300 [19119 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-09T03:22:30,574-0300 [19119 6] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-12-09T03:22:31,386-0300 [19119 6] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-12-09T03:22:44,361-0300 [21163 1] com.newrelic INFO: Writing to New Relic log file: /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/logs/newrelic_agent.log
+2021-12-09T03:22:44,362-0300 [21163 1] com.newrelic INFO: JRE vendor Private Build version 1.8.0_292
+2021-12-09T03:22:44,362-0300 [21163 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 25.292-b10
+2021-12-09T03:22:44,362-0300 [21163 1] com.newrelic INFO: OS Linux version 5.4.0-42-generic arch amd64
+2021-12-09T03:22:44,362-0300 [21163 1] com.newrelic INFO: Agent Host: ni-01780-4p IP: 127.0.1.1
+2021-12-09T03:22:44,362-0300 [21163 1] com.newrelic INFO: New Relic Agent v7.4.0 is initializing...
+2021-12-09T03:22:45,149-0300 [21163 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-12-09T03:22:47,640-0300 [21163 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-12-09T03:22:48,207-0300 [21163 1] com.newrelic INFO: Setting audit_mode to false
+2021-12-09T03:22:48,493-0300 [21163 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/./newrelic.yml
+2021-12-09T03:22:48,511-0300 [21163 1] com.newrelic INFO: New Relic Agent v7.4.0 has started
+2021-12-09T03:22:48,511-0300 [21163 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@64a294a6
+2021-12-09T03:22:48,511-0300 [21163 1] com.newrelic INFO: Premain startup complete in 5.241ms
+2021-12-09T03:22:50,818-0300 [21163 47] com.newrelic INFO: Server Info: Apache Tomcat/9.0.55
+2021-12-09T03:22:53,509-0300 [21163 31] com.newrelic INFO: Host name is ni-01780-4p, display host ni-01780-4p for application rabbitmq-demo
+2021-12-09T03:22:53,511-0300 [21163 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-09T03:22:54,496-0300 [21163 31] com.newrelic INFO: Collector redirection to collector-001.newrelic.com:443
+2021-12-09T03:22:55,334-0300 [21163 31] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-12-09T03:22:55,334-0300 [21163 31] com.newrelic INFO: Agent run id: BfEnw1uDVs9aADNU3CLg_WRhsaEAAAIBAAAnIQEAAFKrAgQi4P4xAwAFNy40LjAAC25pLTAxNzgwLTRwAA1yYWJiaXRtcS1kZW1v
+2021-12-09T03:22:55,334-0300 [21163 31] com.newrelic INFO: Agent 21163@ni-01780-4p/rabbitmq-demo connected to collector.newrelic.com:443
+2021-12-09T03:22:55,334-0300 [21163 31] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3364060/applications/585170481
+2021-12-09T03:22:55,336-0300 [21163 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-09T03:22:55,336-0300 [21163 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-09T03:22:55,336-0300 [21163 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-09T03:22:55,337-0300 [21163 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-09T03:22:55,337-0300 [21163 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-09T03:22:55,337-0300 [21163 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-09T03:22:56,420-0300 [21163 31] com.newrelic INFO: Real user monitoring is enabled for application rabbitmq-demo. Auto instrumentation is enabled.
+2021-12-09T03:22:56,420-0300 [21163 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-09T10:15:04,241-0300 [21163 74] com.newrelic INFO: Remote get_agent_commands call failed : javax.net.ssl.SSLException: Connection reset.
+2021-12-09T11:50:41,018-0300 [21163 6] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-12-09T11:50:41,783-0300 [21163 6] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-12-09T14:26:07,951-0300 [12631 1] com.newrelic INFO: Writing to New Relic log file: /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/logs/newrelic_agent.log
+2021-12-09T14:26:07,951-0300 [12631 1] com.newrelic INFO: JRE vendor Private Build version 1.8.0_292
+2021-12-09T14:26:07,951-0300 [12631 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 25.292-b10
+2021-12-09T14:26:07,951-0300 [12631 1] com.newrelic INFO: OS Linux version 5.4.0-42-generic arch amd64
+2021-12-09T14:26:07,952-0300 [12631 1] com.newrelic INFO: Agent Host: ni-01780-4p IP: 127.0.1.1
+2021-12-09T14:26:07,952-0300 [12631 1] com.newrelic INFO: New Relic Agent v7.4.0 is initializing...
+2021-12-09T14:26:08,961-0300 [12631 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-12-09T14:26:12,028-0300 [12631 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-12-09T14:26:12,617-0300 [12631 1] com.newrelic INFO: Setting audit_mode to false
+2021-12-09T14:26:12,998-0300 [12631 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/./newrelic.yml
+2021-12-09T14:26:13,020-0300 [12631 1] com.newrelic INFO: New Relic Agent v7.4.0 has started
+2021-12-09T14:26:13,020-0300 [12631 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@64a294a6
+2021-12-09T14:26:13,020-0300 [12631 1] com.newrelic INFO: Premain startup complete in 6.212ms
+2021-12-09T14:26:15,878-0300 [12631 46] com.newrelic INFO: Server Info: Apache Tomcat/9.0.55
+2021-12-09T14:26:18,019-0300 [12631 31] com.newrelic INFO: Host name is ni-01780-4p, display host ni-01780-4p for application rabbitmq-demo
+2021-12-09T14:26:18,020-0300 [12631 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-09T14:26:19,177-0300 [12631 31] com.newrelic INFO: Collector redirection to collector-001.newrelic.com:443
+2021-12-09T14:26:20,024-0300 [12631 31] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-12-09T14:26:20,024-0300 [12631 31] com.newrelic INFO: Agent run id: BffEfM-hhf5kADNU3CLg_WRhsjygAAIBAAAnIQEAADFXAgQi4P4xAwAFNy40LjAAC25pLTAxNzgwLTRwAA1yYWJiaXRtcS1kZW1v
+2021-12-09T14:26:20,025-0300 [12631 31] com.newrelic INFO: Agent 12631@ni-01780-4p/rabbitmq-demo connected to collector.newrelic.com:443
+2021-12-09T14:26:20,025-0300 [12631 31] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3364060/applications/585170481
+2021-12-09T14:26:20,028-0300 [12631 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-09T14:26:20,028-0300 [12631 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-09T14:26:20,028-0300 [12631 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-09T14:26:20,034-0300 [12631 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-09T14:26:20,034-0300 [12631 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-09T14:26:20,034-0300 [12631 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-09T14:26:20,836-0300 [12631 31] com.newrelic INFO: Real user monitoring is enabled for application rabbitmq-demo. Auto instrumentation is enabled.
+2021-12-09T14:26:20,837-0300 [12631 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-09T14:27:24,165-0300 [12631 6] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-12-09T14:27:24,973-0300 [12631 6] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-12-10T11:43:14,982-0300 [1584 1] com.newrelic INFO: Writing to New Relic log file: /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/logs/newrelic_agent.log
+2021-12-10T11:43:14,983-0300 [1584 1] com.newrelic INFO: JRE vendor Private Build version 1.8.0_292
+2021-12-10T11:43:14,983-0300 [1584 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 25.292-b10
+2021-12-10T11:43:14,983-0300 [1584 1] com.newrelic INFO: OS Linux version 5.4.0-42-generic arch amd64
+2021-12-10T11:43:14,983-0300 [1584 1] com.newrelic INFO: Agent Host: ni-01780-4p IP: 127.0.1.1
+2021-12-10T11:43:14,983-0300 [1584 1] com.newrelic INFO: New Relic Agent v7.4.0 is initializing...
+2021-12-10T11:43:15,718-0300 [1584 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-12-10T11:43:18,094-0300 [1584 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-12-10T11:43:18,854-0300 [1584 1] com.newrelic INFO: Setting audit_mode to false
+2021-12-10T11:43:19,286-0300 [1584 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/./newrelic.yml
+2021-12-10T11:43:19,319-0300 [1584 1] com.newrelic INFO: New Relic Agent v7.4.0 has started
+2021-12-10T11:43:19,319-0300 [1584 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@64a294a6
+2021-12-10T11:43:19,319-0300 [1584 1] com.newrelic INFO: Premain startup complete in 5.432ms
+2021-12-10T11:43:21,691-0300 [1584 47] com.newrelic INFO: Server Info: Apache Tomcat/9.0.55
+2021-12-10T11:43:24,316-0300 [1584 31] com.newrelic INFO: Host name is ni-01780-4p, display host ni-01780-4p for application rabbitmq-demo
+2021-12-10T11:43:24,318-0300 [1584 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-10T11:43:25,547-0300 [1584 31] com.newrelic INFO: Collector redirection to collector-001.newrelic.com:443
+2021-12-10T11:43:26,599-0300 [1584 31] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-12-10T11:43:26,600-0300 [1584 31] com.newrelic INFO: Agent run id: BZid5JLb3CBOADNU3CLg_WRhs2fsAAIBAAAnIQEAAAYwAgQi4P4xAwAFNy40LjAAC25pLTAxNzgwLTRwAA1yYWJiaXRtcS1kZW1v
+2021-12-10T11:43:26,601-0300 [1584 31] com.newrelic INFO: Agent 1584@ni-01780-4p/rabbitmq-demo connected to collector.newrelic.com:443
+2021-12-10T11:43:26,601-0300 [1584 31] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3364060/applications/585170481
+2021-12-10T11:43:26,603-0300 [1584 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-10T11:43:26,603-0300 [1584 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-10T11:43:26,603-0300 [1584 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-10T11:43:26,607-0300 [1584 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-10T11:43:26,607-0300 [1584 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-10T11:43:26,607-0300 [1584 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-10T11:43:27,014-0300 [1584 31] com.newrelic INFO: Real user monitoring is enabled for application rabbitmq-demo. Auto instrumentation is enabled.
+2021-12-10T11:43:27,015-0300 [1584 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-10T11:59:43,385-0300 [1584 6] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-12-10T11:59:45,202-0300 [1584 6] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-12-10T12:40:38,148-0300 [22714 1] com.newrelic INFO: Writing to New Relic log file: /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/logs/newrelic_agent.log
+2021-12-10T12:40:38,148-0300 [22714 1] com.newrelic INFO: JRE vendor Private Build version 1.8.0_292
+2021-12-10T12:40:38,149-0300 [22714 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 25.292-b10
+2021-12-10T12:40:38,149-0300 [22714 1] com.newrelic INFO: OS Linux version 5.4.0-42-generic arch amd64
+2021-12-10T12:40:38,149-0300 [22714 1] com.newrelic INFO: Agent Host: ni-01780-4p IP: 127.0.1.1
+2021-12-10T12:40:38,149-0300 [22714 1] com.newrelic INFO: New Relic Agent v7.4.0 is initializing...
+2021-12-10T12:40:39,329-0300 [22714 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-12-10T12:40:43,470-0300 [22714 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-12-10T12:40:44,349-0300 [22714 1] com.newrelic INFO: Setting audit_mode to false
+2021-12-10T12:40:44,810-0300 [22714 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/jmicael/pagseguro/projects/rabbitmq-demo/newrelic/./newrelic.yml
+2021-12-10T12:40:44,837-0300 [22714 1] com.newrelic INFO: New Relic Agent v7.4.0 has started
+2021-12-10T12:40:44,837-0300 [22714 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@64a294a6
+2021-12-10T12:40:44,837-0300 [22714 1] com.newrelic INFO: Premain startup complete in 8.262ms
+2021-12-10T12:40:48,143-0300 [22714 46] com.newrelic INFO: Server Info: Apache Tomcat/9.0.55
+2021-12-10T12:40:49,833-0300 [22714 31] com.newrelic INFO: Host name is ni-01780-4p, display host ni-01780-4p for application rabbitmq-demo
+2021-12-10T12:40:49,836-0300 [22714 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-10T12:40:50,861-0300 [22714 31] com.newrelic INFO: Collector redirection to collector-001.newrelic.com:443
+2021-12-10T12:40:52,299-0300 [22714 31] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-12-10T12:40:52,300-0300 [22714 31] com.newrelic INFO: Agent run id: Bci88p3eXiPOADNU3CLg_WRhs3VIAAIBAAAnIQEAAFi6AgQi4P4xAwAFNy40LjAAC25pLTAxNzgwLTRwAA1yYWJiaXRtcS1kZW1v
+2021-12-10T12:40:52,300-0300 [22714 31] com.newrelic INFO: Agent 22714@ni-01780-4p/rabbitmq-demo connected to collector.newrelic.com:443
+2021-12-10T12:40:52,300-0300 [22714 31] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3364060/applications/585170481
+2021-12-10T12:40:52,301-0300 [22714 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-10T12:40:52,301-0300 [22714 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-10T12:40:52,302-0300 [22714 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-10T12:40:52,305-0300 [22714 31] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-12-10T12:40:52,305-0300 [22714 31] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2021-12-10T12:40:52,305-0300 [22714 31] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2021-12-10T12:40:53,206-0300 [22714 31] com.newrelic INFO: Real user monitoring is enabled for application rabbitmq-demo. Auto instrumentation is enabled.
+2021-12-10T12:40:53,206-0300 [22714 31] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2021-12-10T12:43:17,117-0300 [22714 6] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-12-10T12:43:17,520-0300 [22714 6] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
