@@ -11,7 +11,12 @@ git clone https://github.com/devjony/rabbitmq-demo.git && \
 
 ## Run Locally
 ```bash
-  mvn spring-boot:run
+mvn spring-boot:run
+```
+
+## Rabbitmq management
+```bash
+http://localhost:15672/
 ```
 
 ## License
