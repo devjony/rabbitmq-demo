@@ -19,7 +19,7 @@ public class QueueController {
 
     @PostMapping("/send")
     ResponseEntity<String> send(@RequestBody String message) {
-        logger.info("New request received: [/send]" + message.toString());
+        logger.info("New request received: [/send] " + message.toString());
 
         try {
             producerApi.send(message);

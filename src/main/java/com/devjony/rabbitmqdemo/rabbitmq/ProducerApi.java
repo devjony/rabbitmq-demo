@@ -21,7 +21,8 @@ public class ProducerApi {
     public void send(String message) {
 
         try {
-            rabbitTemplate.convertAndSend("send", message);
+            logger.info("Enviando mensagem pro rabbit: " + message);
+            rabbitTemplate.convertAndSend("demo.exchange","send", message);
         } catch (Exception e) {
             logger.warning("Error sending message: " + e.getMessage());
         }

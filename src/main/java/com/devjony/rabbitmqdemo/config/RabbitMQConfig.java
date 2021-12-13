@@ -54,7 +54,7 @@ public class RabbitMQConfig {
         Map<String, Object> arguments = new HashMap<>();
         arguments.put("x-dead-letter-exchange", exchangeRetry2Name);
 
-        return new Queue(waitQueueName, true);
+        return new Queue(waitQueueName, true, true, false, arguments);
     }
 
     @Bean
@@ -65,16 +65,16 @@ public class RabbitMQConfig {
 
     @Bean
     Binding queueBind(Queue queue, DirectExchange demoExchange) {
-        return BindingBuilder.bind(queue).to(demoExchange).with("send");
+        return BindingBuilder.bind(queue()).to(demoExchange()).with("send");
     }
 
     @Bean
     Binding waitQueueBind(Queue waitQueue, DirectExchange exchangeRetry1) {
-        return BindingBuilder.bind(waitQueue).to(exchangeRetry1).with(queueName);
+        return BindingBuilder.bind(waitQueue()).to(exchangeRetry1()).with(queueName);
     }
 
     @Bean
     Binding retryQueuBind(Queue queue, DirectExchange exchangeRetry2) {
-        return BindingBuilder.bind(queue).to(exchangeRetry2).with(queueName);
+        return BindingBuilder.bind(queue()).to(exchangeRetry2()).with(queueName);
     }
 }
