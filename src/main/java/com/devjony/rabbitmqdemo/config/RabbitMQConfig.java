@@ -2,9 +2,8 @@ package com.devjony.rabbitmqdemo.config;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
-import org.springframework.amqp.core.DirectExchange;
 import org.springframework.amqp.core.Queue;
-import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.amqp.core.TopicExchange;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,65 +15,39 @@ import java.util.Map;
 public class RabbitMQConfig {
 
     @Value("${spring.rabbitmq.exchange.name}")
-    private String demoExchangeName;
+    private String exchangeName;
 
     @Value("${spring.rabbitmq.queue.name}")
-    private String queueName;
+    private String paymentAnalysisQueue;
 
-    @Value("${spring.rabbitmq.wait.queue.name}")
-    private String waitQueueName;
-
-    @Value("${spring.rabbitmq.exchange.retry1.name}")
-    private String exchangeRetry1Name;
-
-    @Value("${spring.rabbitmq.exchange.retry2.name}")
-    private String exchangeRetry2Name;
+    @Value("${spring.rabbitmq.parking.queue.name}")
+    private String parkingPaymentAnalysisQueue;
 
     @Bean
-    @Qualifier("demoExchange")
-    public DirectExchange demoExchange() {
-        return new DirectExchange(demoExchangeName, true, false);
-    }
-
-    @Bean
-    @Qualifier("queue")
-    public Queue queue() {
-        return new Queue(queueName, true);
-    }
-
-    @Bean
-    @Qualifier("exchangeRetry1")
-    public DirectExchange exchangeRetry1() {
-        return new DirectExchange(exchangeRetry1Name, true, false);
-    }
-
-    @Bean
-    @Qualifier("waitQueue")
-    public Queue waitQueue() {
+    public Queue paymentAnalysisQueue() {
         Map<String, Object> arguments = new HashMap<>();
-        arguments.put("x-dead-letter-exchange", exchangeRetry2Name);
+        arguments.put("x-dead-letter-exchange", exchangeName);
+        arguments.put("x-dead-letter-routing-key", parkingPaymentAnalysisQueue);
 
-        return new Queue(waitQueueName, true);
+        return new Queue(paymentAnalysisQueue, true, false, false, arguments);
     }
 
     @Bean
-    @Qualifier("exchangeRetry2")
-    public DirectExchange exchangeRetry2() {
-        return new DirectExchange(exchangeRetry2Name, true, false);
+    public Queue parkingPaymentAnalysisQueue() {
+        Map<String, Object> arguments = new HashMap<>();
+        arguments.put("x-dead-letter-exchange", exchangeName);
+        arguments.put("x-dead-letter-routing-key", paymentAnalysisQueue);
+
+        return new Queue(parkingPaymentAnalysisQueue, true, false, false, arguments);
     }
 
     @Bean
-    Binding queueBind(Queue queue, DirectExchange demoExchange) {
-        return BindingBuilder.bind(queue).to(demoExchange).with("send");
+    public TopicExchange exchange() {
+        return new TopicExchange(exchangeName, true, false);
     }
 
     @Bean
-    Binding waitQueueBind(Queue waitQueue, DirectExchange exchangeRetry1) {
-        return BindingBuilder.bind(waitQueue).to(exchangeRetry1).with(queueName);
-    }
-
-    @Bean
-    Binding retryQueuBind(Queue queue, DirectExchange exchangeRetry2) {
-        return BindingBuilder.bind(queue).to(exchangeRetry2).with(queueName);
+    Binding queueBind(Queue paymentAnalysisQueue, TopicExchange exchange) {
+        return BindingBuilder.bind(paymentAnalysisQueue).to(exchange).with("order_app.payment.analysis");
     }
 }
