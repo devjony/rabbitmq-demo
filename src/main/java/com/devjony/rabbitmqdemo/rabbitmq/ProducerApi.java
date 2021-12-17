@@ -17,7 +17,7 @@ public class ProducerApi {
     public void send(String message) {
 
         try {
-            rabbitTemplate.convertAndSend("exchange.demo","order_app.payment.analysis", message);
+            rabbitTemplate.convertAndSend("moip","order_app.payment.analysis", message);
         } catch (Exception e) {
             logger.error("Error sending message: " + e.getMessage());
         }
