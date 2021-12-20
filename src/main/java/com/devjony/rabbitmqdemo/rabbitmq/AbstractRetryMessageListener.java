@@ -13,15 +13,24 @@ public abstract class AbstractRetryMessageListener implements MessageListener {
 
     @Override
     public final void onMessage(Message message) {
+//        MessageDecorator messageDecorator = new MessageDecorator(message);
+        Integer retryHeader = message.getMessageProperties().getHeader("x-retry");
+        if (retryHeader == null) {
+            retryHeader = 1;
+        } else {
+            retryHeader = Integer.valueOf(retryHeader) + 1;
+        }
 
-        MessageDecorator messageDecorator = new MessageDecorator(message);
+        LOGGER.info("Message incoming... retry={}", retryHeader);
 
-        LOGGER.info("Message incoming... deliveryCount={} routingKey={} mpa={} channel={}",
-                messageDecorator.getDeliveryCount(), messageDecorator.getRoutingKey(), messageDecorator.getMpa(),
-                messageDecorator.getChannel());
 
-        doOnMessage(messageDecorator);
+        String expiration = String.valueOf(retryHeader * 5000);
+        message.getMessageProperties().setExpiration(expiration);
+        message.getMessageProperties().setHeader("x-retry", retryHeader);
+
+        LOGGER.info("Expiration: {}", expiration);
+        doOnMessage(message);
     }
 
-    protected abstract void doOnMessage(final MessageDecorator messageDecorator);
+    protected abstract void doOnMessage(final Message message);
 }

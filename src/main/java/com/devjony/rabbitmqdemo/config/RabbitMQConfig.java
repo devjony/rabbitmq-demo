@@ -70,7 +70,13 @@ public class RabbitMQConfig {
     @Bean
     @Qualifier("queueBind")
     Binding queueBind(Queue paymentAnalysisQueue, TopicExchange exchange) {
-        return BindingBuilder.bind(paymentAnalysisQueue).to(exchange).with("order_app.payment.analysis");
+        return BindingBuilder.bind(paymentAnalysisQueue).to(exchange).with(this.paymentAnalysisQueue);
+    }
+
+    @Bean
+    @Qualifier("parkingBind")
+    Binding parkingBind(Queue parkingPaymentAnalysisQueue, TopicExchange exchange) {
+        return BindingBuilder.bind(parkingPaymentAnalysisQueue).to(exchange).with(this.parkingPaymentAnalysisQueue);
     }
 
     @Bean
@@ -93,7 +99,6 @@ public class RabbitMQConfig {
 //        amqpAdmin.declareBinding(bind(paymentAnalysisQueue()).to(exchange).with(RoutingKeys.PAYMENTV2_ANALYSIS.getKey())); // Quando payment entra em análise
 //        amqpAdmin.declareBinding(bind(paymentAnalysisQueue()).to(exchange).with(QUEUE_NAME)); // retentativa de um payment que falhou
 //        amqpAdmin.declareBinding(bind(failedParkingPaymentAnalysisQueue()).to(exchange).with(FAILED_PARKING_QUEUE_NAME)); // fica parado por 60 segundos antes de re-tentar
-
         return container;
     }
 

@@ -29,6 +29,10 @@ public class MessageDecorator {
         return message.getMessageProperties().getHeaders().toString();
     }
 
+    public String getHeader(String header) {
+        return message.getMessageProperties().getHeader(header);
+    }
+
     public Integer getDeliveryCount() {
         if (!message.getMessageProperties().getHeaders().containsKey("x-death")) {
             return 1;
@@ -81,4 +85,11 @@ public class MessageDecorator {
         return null;
     }
 
+    public void setExpiration(String expiration){
+        message.getMessageProperties().setExpiration(expiration);
+    }
+
+    public Message getMessage() {
+        return message;
+    }
 }
