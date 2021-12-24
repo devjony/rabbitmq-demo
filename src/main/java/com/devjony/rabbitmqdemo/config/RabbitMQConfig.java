@@ -25,8 +25,8 @@ public class RabbitMQConfig {
     @Value("${spring.rabbitmq.parking.queue.name}")
     private String parkingPaymentAnalysisQueue;
 
-    @Value("${spring.rabbitmq.queue.dlq.name}")
-    private String paymentAnalysisDLQ;
+    @Value("${spring.rabbitmq.failed.queue.name}")
+    private String failedPaymentAnalysisQueue;
 
     @Autowired
     private ConnectionFactory connectionFactory;
@@ -52,9 +52,9 @@ public class RabbitMQConfig {
     }
 
     @Bean
-    @Qualifier("paymentAnalysisDLQ")
-    public Queue paymentAnalysisDLQ() {
-        return new Queue(paymentAnalysisDLQ, true, false, false);
+    @Qualifier("failedPaymentAnalysisQueue")
+    public Queue failedPaymentAnalysisQueue() {
+        return new Queue(failedPaymentAnalysisQueue, true, false, false);
     }
 
     @Bean
@@ -76,9 +76,9 @@ public class RabbitMQConfig {
     }
 
     @Bean
-    @Qualifier("dlqBind")
-    Binding dlqBind(Queue paymentAnalysisDLQ, TopicExchange exchange) {
-        return BindingBuilder.bind(paymentAnalysisDLQ).to(exchange).with(this.paymentAnalysisDLQ);
+    @Qualifier("failedBind")
+    Binding failedBind(Queue failedPaymentAnalysisQueue, TopicExchange exchange) {
+        return BindingBuilder.bind(failedPaymentAnalysisQueue).to(exchange).with(this.failedPaymentAnalysisQueue);
     }
 
     @Bean
