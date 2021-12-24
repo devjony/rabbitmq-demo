@@ -32,4 +32,5 @@ public abstract class AbstractRetryMessageListener implements MessageListener {
     }
 
     protected abstract void doOnMessage(final Message message);
+    protected abstract void doOnMessageFail(final Message message);
 }

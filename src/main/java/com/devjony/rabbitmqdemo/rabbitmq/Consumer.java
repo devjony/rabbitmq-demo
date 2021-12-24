@@ -35,4 +35,9 @@ public class Consumer extends AbstractRetryMessageListener {
             rabbitTemplate.convertAndSend(exchangeName, failedQueueName, message);
         }
     }
+
+    @Override
+    protected void doOnMessageFail(Message message) {
+        rabbitTemplate.convertAndSend(exchangeName, failedQueueName, message);
+    }
 }
