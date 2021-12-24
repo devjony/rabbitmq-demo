@@ -5,29 +5,33 @@ import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageListener;
 
+import java.util.Map;
+
 public abstract class AbstractRetryMessageListener implements MessageListener {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(AbstractRetryMessageListener.class);
 
     @Override
     public final void onMessage(Message message) {
-        Integer retryHeader = message.getMessageProperties().getHeader("x-retry");
+
+        Map<String, Object> messageHeaders = message.getMessageProperties().getHeaders();
+        Integer retryHeader = (Integer) messageHeaders.get("x-retry");;
+
         if (retryHeader == null) {
-            retryHeader = 1;
+            retryHeader = 0;
+            message.getMessageProperties().setHeader("x-retry", retryHeader);
+        } else if (retryHeader >= 5) {
+            LOGGER.warn("Message failed to be consumed too many times, sending to failed queue");
+            message.getMessageProperties().setExpiration(null);
+            doOnMessageFail(message);
         } else {
-            retryHeader = Integer.valueOf(retryHeader) + 1;
+            message.getMessageProperties().setHeader("x-retry", ++retryHeader);
         }
 
-        if(retryHeader <= 3)
-            LOGGER.info("Message incoming... retry={}", retryHeader);
-
-        String expiration = String.valueOf(retryHeader * 5000);
+        String expiration = String.valueOf(retryHeader * 2000);
         message.getMessageProperties().setExpiration(expiration);
-        message.getMessageProperties().setHeader("x-retry", retryHeader);
 
-        if(retryHeader <= 3)
-            LOGGER.info("Expiration: {}", expiration);
-
+        LOGGER.info("Message incoming... retry={} expiration={}", retryHeader, expiration);
         doOnMessage(message);
     }
 
