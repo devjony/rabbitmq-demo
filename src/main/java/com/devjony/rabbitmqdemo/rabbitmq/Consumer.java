@@ -12,13 +12,13 @@ public class Consumer extends AbstractRetryMessageListener {
     private static final Logger logger = LoggerFactory.getLogger(Consumer.class);
 
     @Value("${spring.rabbitmq.exchange.name}")
-    String exchangeName;
+    private String exchangeName;
 
     @Value("${spring.rabbitmq.parking.queue.name}")
-    String parkingQueueName;
+    private String parkingQueueName;
 
     @Value("${spring.rabbitmq.failed.queue.name}")
-    String failedQueueName;
+    private String failedQueueName;
 
     @Autowired
     RabbitTemplate rabbitTemplate;

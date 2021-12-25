@@ -13,10 +13,10 @@ public class ProducerApi {
     private static final Logger logger = LoggerFactory.getLogger(ProducerApi.class);
 
     @Value("${spring.rabbitmq.exchange.name}")
-    String exchangeName;
+    private String exchangeName;
 
     @Value("${spring.rabbitmq.queue.name}")
-    String queueName;
+    private String queueName;
 
     @Autowired
     private AmqpTemplate rabbitTemplate;
